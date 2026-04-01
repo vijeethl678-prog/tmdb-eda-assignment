@@ -13,7 +13,7 @@ import sqlite3
 from google.colab import userdata
 
 try:
-    API_KEY = userdata.get('tmdb_api_key')
+    API_KEY = userdata.get('tmdb_api_key') # Please use your own API Key here
 except Exception as e:
     print(f"Error: Could not find the secret. Check the name in the Key icon menu. Details: {e}")
 
